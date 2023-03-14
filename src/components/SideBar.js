@@ -7,16 +7,16 @@ export default function SideBar() {
         <div className='sideBarContainer'>
           <h3 className='sideTitle'>Dashboard</h3>
           <ul className='sideList'>
-            <li className='listItem'>
-              <LineStyle/>
+            <li className='listItem active'>
+              <LineStyle className='iconStyle'/>
               Home
             </li>
             <li className='listItem'>
-              <Timeline/>
+              <Timeline className='iconStyle'/>
               Analytics
             </li>
             <li className='listItem'>
-              <TrendingUp/>
+              <TrendingUp className='iconStyle'/>
               Sales
             </li>
           </ul>
