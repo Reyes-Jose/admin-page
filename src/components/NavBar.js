@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavBarStyle.css'
-import { NotificationsNoneIcon } from '@mui/icons-material';
-//check icon error
+import { NotificationsOutlined } from '@mui/icons-material';
+
 
 
 export default function NavBar() {
@@ -13,7 +13,7 @@ export default function NavBar() {
         </div>
         <div className='navBarRight'>Right</div>
         <div className='iconContainter'>
-        <NotificationsNoneIcon/>
+        <NotificationsOutlined/>
         </div>
         </div>
     </div>
