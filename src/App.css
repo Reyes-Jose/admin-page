@@ -1,7 +1,3 @@
 .container{
     display: flex;
 }
-
-.rightPage{
-    flex: 4;
-}
