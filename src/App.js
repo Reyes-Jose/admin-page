@@ -8,7 +8,6 @@ function App() {
       <NavBar />
       <div className="container">
         <SideBar />
-        <div className="rightPage">Other page</div>
       </div>
     </div>
   );
